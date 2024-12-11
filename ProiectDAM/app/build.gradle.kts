@@ -42,7 +42,8 @@ dependencies {
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation ("com.squareup.okhttp3:okhttp:4.10.0")
     implementation ("androidx.recyclerview:recyclerview:1.3.1")
-
+    //noinspection GradlePath
+    implementation(files("C:/##FACULTATE/Anul 3 Semestru 1/DAM/android-sdk-0.8.0-appremote_v2.1.0-auth/app-remote-lib/spotify-app-remote-release-0.8.0.aar"))
     implementation(libs.room.runtime)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)

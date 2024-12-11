@@ -64,8 +64,8 @@ public class DashboardActivity extends AppCompatActivity {
             }
         });
         musicPlayerButton.setOnClickListener(view -> {
-            //Intent musicIntent = new Intent(DashboardActivity.this, MusicPlayerActivity.class);
-            //startActivity(musicIntent);
+            Intent musicIntent = new Intent(DashboardActivity.this, MusicPlayerActivity.class);
+            startActivity(musicIntent);
         });
     }
 }
